@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dark-mode {
+  background-color: #141414;
+  color: white;
+  min-height: 100vh;
+}
+
+.dark-mode .ant-card,
+.dark-mode .ant-list-item {
+  background-color: #1f1f1f !important;
+  color: white;
+}
+
+.dark-mode .ant-typography {
+  color: white !important;
+}
+
+.dark-mode .ant-select-selector {
+  background-color: #1f1f1f !important;
+  color: white !important;
+  border-color: #434343 !important;
+}
